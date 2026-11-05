@@ -1,0 +1,110 @@
+{
+  "source": {
+    "geography": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/Geos20241YR.txt",
+    "rent_burden": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25070.dat",
+    "tenure": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25003.dat",
+    "median_gross_rent": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25064.dat"
+  },
+  "sha256": {
+    "geography": "2155acb3c81672eee9b0bd971cca60cd77d8b66222b34973928f57c087ea4afe",
+    "rent_burden": "edf1abe1970b39c3cb9038f762fc203dcfea081e8f2ca6cb0f8c7a75c62cd770",
+    "tenure": "944b9d7aa807cc32c50a50b37af0afac50db914f02dc68bafa628e4227a496ad",
+    "median_gross_rent": "8624f9775add1e22ac3a015a753207e0d752bc4c967dda04c22cd9e17ac94b57"
+  },
+  "counties": 855,
+  "counties_missing_rent_burden_table": [
+    "Columbia County, Florida",
+    "Lea County, New Mexico",
+    "Liberty County, Texas",
+    "Pender County, North Carolina",
+    "Toa Alta Municipio, Puerto Rico",
+    "Waller County, Texas"
+  ],
+  "states_and_dc": 52,
+  "median_county_burden_30plus_pct": 50.15,
+  "covered_county_pooled_30plus_pct": 52.55,
+  "covered_county_renter_households": 41364450,
+  "counties_with_missing_median_rent": 0,
+  "top_five_burden_rate_min_5000_calculable": [
+    {
+      "county_state": "Iron County, Utah",
+      "rate_pct": 73.17,
+      "denominator": 5602
+    },
+    {
+      "county_state": "Henry County, Georgia",
+      "rate_pct": 72.78,
+      "denominator": 20765
+    },
+    {
+      "county_state": "Lee County, Mississippi",
+      "rate_pct": 69.18,
+      "denominator": 8305
+    },
+    {
+      "county_state": "Lake County, California",
+      "rate_pct": 68.5,
+      "denominator": 8612
+    },
+    {
+      "county_state": "Highlands County, Florida",
+      "rate_pct": 68.43,
+      "denominator": 9757
+    }
+  ],
+  "state_counties": {
+    "Alabama": 21,
+    "Alaska": 3,
+    "Arizona": 10,
+    "Arkansas": 11,
+    "California": 42,
+    "Colorado": 12,
+    "Connecticut": 9,
+    "Delaware": 3,
+    "District of Columbia": 1,
+    "Florida": 40,
+    "Georgia": 39,
+    "Hawaii": 4,
+    "Idaho": 6,
+    "Illinois": 22,
+    "Indiana": 27,
+    "Iowa": 10,
+    "Kansas": 8,
+    "Kentucky": 14,
+    "Louisiana": 17,
+    "Maine": 6,
+    "Maryland": 16,
+    "Massachusetts": 12,
+    "Michigan": 31,
+    "Minnesota": 16,
+    "Mississippi": 11,
+    "Missouri": 18,
+    "Montana": 6,
+    "Nebraska": 3,
+    "Nevada": 2,
+    "New Hampshire": 7,
+    "New Jersey": 21,
+    "New Mexico": 8,
+    "New York": 38,
+    "North Carolina": 43,
+    "North Dakota": 4,
+    "Ohio": 38,
+    "Oklahoma": 11,
+    "Oregon": 15,
+    "Pennsylvania": 40,
+    "Puerto Rico": 10,
+    "Rhode Island": 4,
+    "South Carolina": 22,
+    "South Dakota": 3,
+    "Tennessee": 22,
+    "Texas": 56,
+    "Utah": 8,
+    "Vermont": 1,
+    "Virginia": 30,
+    "Washington": 20,
+    "West Virginia": 7,
+    "Wisconsin": 25,
+    "Wyoming": 2
+  }
+}
+
