@@ -1,8 +1,14 @@
 # U.S. county rental cost burden | Power BI
 
-**Status:** validated 2024 ACS 1-year county extract; Power BI report in progress.
+**Status:** validated source data, published interactive Power BI report, and two-page PDF export.
+
+**Explore the work:** [Interactive Power BI report](https://app.powerbi.com/groups/e6426da3-9b36-4519-acf1-2434daa552ae/reports/c343f3cf-10f5-4df1-ab4b-17008f3050ee/689ae9f8380962dcd938?experience=power-bi) · [Two-page PDF](US-County-Rent-Burden-2024-ACS.pdf) · [Dashboard overview](dashboard-preview-1.png) · [County explorer](dashboard-preview-2.png)
 
 This case study asks where a higher share of renter-occupied households spends at least 30% of household income on gross rent, and how that share sits alongside median gross rent and renter share. It is a cross-sectional description of the counties with published 2024 ACS 1-year estimates, not a ranking of all U.S. counties or a causal study.
+
+## Report design
+
+The overview combines four KPI cards, a top-ten state comparison, and a county scatter plot whose bubble size represents renter households. The state selector filters these visuals. The second page is a county explorer with a state selector, sortable county table, coverage KPIs, and interpretation notes. The PDF records the default all-county view; use the live report for filtering and visual interaction. Power BI access may require signing in to an authorized Microsoft account.
 
 ## Data and reproduction
 
@@ -29,4 +35,6 @@ The **median of the 855 county rent-burden rates is 50.15%**. Pooling the numera
 | `acs_2024_county_rent_burden.csv` | Curated county-grain Power BI source |
 | `validation_summary.json` | Source hashes, coverage, and reconciled metrics |
 | `FINDINGS.md` | Descriptive findings and limitations |
+| `US-County-Rent-Burden-2024-ACS.pdf` | Two-page report export |
+| `dashboard-preview-1.png`, `dashboard-preview-2.png` | Page previews |
 
