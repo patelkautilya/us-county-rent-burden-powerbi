@@ -2,7 +2,7 @@
 
 ## What the extract shows
 
-The 2024 ACS 1-year B25070, B25003, and B25064 files join at county geography for **855 counties**. Each county has one row. For every included row, B25070 categories sum to its renter-occupied total, B25003 owners plus renters equal occupied households, and the B25070 total matches the B25003 renter total. The dashboard should default to all included counties and expose state and county filters.
+The 2024 ACS 1-year B25070, B25003, and B25064 files join at county geography for **855 counties**. Each county has one row. For every included row, B25070 categories sum to its renter-occupied total, B25003 owners plus renters equal occupied households, and the B25070 total matches the B25003 renter total. The published dashboard defaults to all included counties and provides a state selector on each page; the second page has a county table.
 
 - The median of county 30%+ rent-burden estimates is **50.15%**. This treats each county equally.
 - Pooling the 30%+ numerator and calculable denominator across included counties yields **52.55%**. This weights counties by the relevant renter-unit count, but it excludes counties absent from the extract and is not a U.S. rate.
@@ -11,7 +11,7 @@ The 2024 ACS 1-year B25070, B25003, and B25064 files join at county geography fo
 
 ## How to read the dashboard
 
-Use a state selector to narrow counties, then compare the 30%+ and 50%+ burden shares. A scatter plot of median gross rent against burden rate can identify counties for follow-up, but cannot establish that rent levels caused burden: income distribution, household composition, and local sampling uncertainty also matter. A state-to-county drill or filtered ranking can show within-state variation. KPI cards should label whether they show a county median or covered-county pooled rate.
+Use a state selector to narrow counties, then compare the 30%+ and 50%+ burden shares. A scatter plot of median gross rent against burden rate can identify counties for follow-up, but cannot establish that rent levels caused burden: income distribution, household composition, and local sampling uncertainty also matter. The county table supports sorting and selection for within-state follow-up. The KPI cards show county medians and panel coverage; the page-two cards distinguish calculable from not-computed rent-to-income records.
 
 ## Limits
 
